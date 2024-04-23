@@ -4,7 +4,7 @@ export default function Homepage() {
   return(
 
    <div>
-    <p>My name is Melissa and I’m a full-stack software engineer based in Chicago, IL. As a former artist and creative entrepreneur, I’m passionate about using a design-centered engineering approach to build applications that are both beautiful and user-friendly. 
+    <p>My name is Melissa and I’m a full-stack software engineer based in Chicago, IL. As a former artist, I’m passionate about using a design-centered approach to build applications that are both beautiful and user-friendly. 
     </p>
 
     {/* Headshot */}
