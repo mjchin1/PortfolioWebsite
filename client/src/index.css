@@ -68,3 +68,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.grPhotos{
+  
+
+}
+.grPhoto {
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.intro{
+ display: flex;
+}
+
+.grBadge{
+  width: 400px;
+}
+
+.headshot {
+  width: 600px;
+}
