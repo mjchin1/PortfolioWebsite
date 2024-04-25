@@ -10,9 +10,11 @@ function App() {
   return (
     <>
       <div className="appBody">
-
-        <h1>Melissa Chin</h1>
+      <div className="appHeader">
+      <h3 className="appHeader appTitle">Melissa Chin | Software Engineer</h3>
       <Navigations/>
+      </div>
+
       <Routes>
       <Route path='/' element={<Homepage/>} />
       <Route path='/projects' element={<Projects/>} />
