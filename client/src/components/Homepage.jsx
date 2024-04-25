@@ -10,10 +10,14 @@ export default function Homepage() {
 
    <div>
     <div className="intro">
-    <p>My name is Melissa and I’m a full-stack software engineer based in Chicago, IL. As a former artist, I’m passionate about using a design-centered approach to build applications that are both beautiful and user-friendly. 
+    <div className="introBlock">
+    <h1>Hi, I'm Melissa. </h1>
+    <p>I’m a full-stack software engineer based in Chicago, IL. As a former artist, I’m passionate about using a design-centered approach to build applications that are both beautiful and user-friendly. 
     </p>
-
+    </div>
+    <div className="introBlock">
     <img className="headshot" src={headshot}></img>
+    </div>
 
     </div>
 

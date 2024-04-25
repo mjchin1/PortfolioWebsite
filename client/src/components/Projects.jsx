@@ -30,7 +30,8 @@ export default function Projects() {
     The idea for Moodboard came from my experience with using Squarespace during my time as a creative entrepreneur. Moodboard is a full-stack application that uses form data submitted by users to design a beautiful website. Users can create a website without logging in. Once the user creates an account, they gain the functionality to save and edit the websites they have created. <br/>
     <br/>Deployed App · GitHub Repository
 
-
+    <div className="breakline"></div>
+    
     </p>
     <h2>The Field Trip</h2>
     <h3>A Full-Stack Directory of Chicago's Hidden Gems</h3>
@@ -44,6 +45,7 @@ export default function Projects() {
 
    <br/> Deployed App · GitHub Repository
     </p>
+    <div className="breakline"></div>
 
 
     <h2>Revive</h2>

@@ -9,16 +9,24 @@ function App() {
 
   return (
     <>
-      <div className="appBody">
+
       <div className="appHeader">
       <h3 className="appHeader appTitle">Melissa Chin | Software Engineer</h3>
       <Navigations/>
       </div>
 
+      <div className="appBody">
+    
       <Routes>
       <Route path='/' element={<Homepage/>} />
       <Route path='/projects' element={<Projects/>} />
       </Routes>
+      </div>
+      
+      <div className="breakline"></div>
+
+      <div className="appFooter">
+        Melissa Chin 2024
       </div>
     </>
   )

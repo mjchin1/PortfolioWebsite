@@ -81,6 +81,7 @@ button:focus-visible {
 
 .intro{
  display: flex;
+ align-items: center;
 }
 
 .grBadge{
@@ -110,10 +111,32 @@ margin-right: 10px;
   margin-top:0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 .appTitle {
   font-size: 30px;
 }
 a{
   font-size: 20px;
+}
+
+.appFooter {
+  margin-top: 50px;
+  height: 200px;
+}
+
+.breakline {
+  width: 500px;
+  border-bottom: solid;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.introBlock {
+  margin-left: 10px;
+  margin-right: 10px;
 }
