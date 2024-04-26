@@ -9,9 +9,8 @@ function App() {
 
   return (
     <>
-
       <div className="appHeader">
-      <h3 className="appHeader appTitle">Melissa Chin | Software Engineer</h3>
+      <h3 className="appTitle">MELISSA CHIN | Software Engineer</h3>
       <Navigations/>
       </div>
 
@@ -26,8 +25,10 @@ function App() {
       <div className="breakline"></div>
 
       <div className="appFooter">
-        Melissa Chin 2024
+        2024. Coded by Melissa Chin using VS Code, Vite and React. 
       </div>
+
+     
     </>
   )
 }

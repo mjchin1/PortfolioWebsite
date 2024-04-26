@@ -101,12 +101,19 @@ margin-right: 10px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  border-bottom: solid;
 }
 .appTitle {
-  font-size: 30px;
+  font-size: 50px;
+  font-family: Palatino, URW Palladio L, serif;
+  margin-top: 0;
 }
 a{
-  font-size: 25px;
+  font-size: 30px;
+}
+
+nav {
+  margin-top: 20px;
 }
 
 .appFooter {

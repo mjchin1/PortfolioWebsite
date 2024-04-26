@@ -20,6 +20,7 @@ export default function Homepage() {
   return(
 
    <div>
+    <br/> <br/> <br/>
     <div className="intro">
     <div className="introBlock">
     <h1>Hi, I'm Melissa. </h1>
@@ -98,6 +99,7 @@ export default function Homepage() {
     As a student in the Grace Hopper Program at Fullstack Academy, I gained invaluable experience in conceptualizing and coding full-stack applications. I’m excited to contribute my programming skills to a team that values curiosity, collaboration, and personal growth. Let’s work together! <br/> <br/>  
     </p>
     </div> <br/> <br/>
+    <div className="shortBreakline"></div> <br/>
 
     <Link to="/projects" className="projectsLink" onClick={scrollToTop}> View My Projects </Link>
    

@@ -16,7 +16,7 @@ export default function Projects() {
   return(
     <div className="projectsContainer">
     <h1>Projects</h1>
-    <div className="shortBreakline"></div>
+    <div className="shortBreakline"></div> <br/>
 
     <h2>Moodboard</h2>
     <h3>A Full-Stack Website-Building App</h3>
@@ -26,7 +26,7 @@ export default function Projects() {
     <p>
     React.js · Vite · Node.js · PostgreSQL · Express.js <br/> <br></br>
 
-    The idea for Moodboard came from my experience with using Squarespace during my time as a creative entrepreneur. Moodboard is a full-stack application that uses form data submitted by users to design a beautiful website. Users can create a website without logging in. Once the user creates an account, they gain the functionality to save and edit the websites they have created. <br/>
+    The idea for Moodboard came from my experience with using Squarespace during my time as a creative entrepreneur. Moodboard is a full-stack application that uses form data submitted by users to design a beautiful website. Users can create a website without logging in, but once they create an account, they gain the functionality to save and edit the websites they have created. <br/>
     <br/>Deployed App · GitHub Repository
 
     <div className="breakline"></div>

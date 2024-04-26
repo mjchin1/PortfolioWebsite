@@ -13,7 +13,7 @@ export default function Navigations() {
     <Link to="/projects"> Projects</Link>
 
     <a href="https://github.com/mjchin1" target="_blank">{<img className="navLink" src={GitHub}/>}</a>
-    <a href="www.linkedin.com/in/melissa1jchin" target="_blank">{<img className="navLink" src={LinkedIn}/>}</a>
+    <a href="https://linkedin.com/in/melissa1jchin" target="_blank">{<img className="navLink" src={LinkedIn}/>}</a>
 
 
 
