@@ -69,24 +69,13 @@ button:focus-visible {
   }
 }
 
-.grPhotos{
-  
-
-}
-.grPhoto {
-  width: 350px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
 .intro{
  display: flex;
  align-items: center;
 }
 
-.grBadge{
-  width: 400px;
-}
+
 
 .headshot {
   width: 600px;
@@ -140,3 +129,91 @@ p {
   margin-left: 10px;
   margin-right: 10px;
 }
+.introText{
+ font-size: 25px;
+}
+
+.outroBlock {
+  display: flex;
+  justify-content: center;
+}
+.ghBadge{
+  width: 500px;
+}
+
+.outroText {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 2%;
+  padding-right: 20px;
+}
+
+.homepageText {
+font-size: 25px;
+}
+
+.aboutSection {
+  font-size: 38px;
+}
+
+.languageIcons {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.iconBlock {
+
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.icon {
+  width: 80px;
+  height:80px;
+}
+
+.iconText {
+  margin-top: -10px;
+  font-size: 17px;
+}
+
+.express {
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.node {
+  width: 120px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.react {
+  height: 90;
+  width: auto;
+}
+
+.css {
+  height: 80px;
+  width: auto;
+  margin-bottom: 5px;
+}
+.redux {
+  height: 80px;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.html {
+  margin-bottom: 4px;
+}
+
+

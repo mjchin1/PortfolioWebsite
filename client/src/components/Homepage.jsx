@@ -1,8 +1,14 @@
 import headshot from '../assets/headshot.png'
-import vases from '../assets/vases.png'
-import throwing from '../assets/throwing.png'
-import mug from '../assets/mug.png'
 import gracehopper from '../assets/gracehopper.png'
+import JS from '../assets/JS.png'
+import Postgres from '../assets/Postgres.png'
+import React from '../assets/React.png'
+import Express from '../assets/Express.png'
+import Node from '../assets/Node.png'
+import CSS from '../assets/CSS.png'
+import Redux from '../assets/Redux.png'
+import HTML from '../assets/HTML.png'
+
 
 export default function Homepage() {
 
@@ -12,36 +18,77 @@ export default function Homepage() {
     <div className="intro">
     <div className="introBlock">
     <h1>Hi, I'm Melissa. </h1>
-    <p>I’m a full-stack software engineer based in Chicago, IL. As a former artist, I’m passionate about using a design-centered approach to build applications that are both beautiful and user-friendly. 
+    <p className="introText">I’m a full-stack software engineer based in Chicago, IL. As a former artist, I’m passionate about using a design-centered approach to build applications that are both beautiful and user-friendly. 
     </p>
     </div>
     <div className="introBlock">
     <img className="headshot" src={headshot}></img>
     </div>
 
+    </div> <br/> <br/>
+
+
+    <h1 className="aboutSection">About Me</h1>
+
+    <p className="homepageText">What I love about programming is that it allows me to draw from so many of the skills that I developed along my creative journey. Being a software engineer is very similar to being an artist: both require you to have the creative vision to build dynamic projects from scratch, the patience to spend time on small details, and the discipline to constantly learn new techniques so that you can grow and expand your abilities. My experience with planning and executing creative projects has shaped my holistic approach to building applications, and I love that being a software engineer allows me to use my creativity to build tools that improve people’s daily experiences. </p> <br/> <br/>
+
+    <h1 className="aboutSection">Skills & Languages </h1>
+
+    <p className="homepageText"> Full-Stack Development · Front-End Web
+    Development · Back-End Web Development · REST API Development </p>
+
+    <div className="languageIcons">
+
+    <div className="iconBlock">
+      <img className="icon" src={JS}/>
+      <p className="iconText">JavaScript</p>
     </div>
 
-    <p>
-    I received my Bachelor’s degree from Brown University and my Master’s degree from the University of Cambridge, where my research explored how the arts and design can be used to connect people who come from different cultures. After spending several years in the International Education sector as an immigration advisor for international students, I decided to lean into the creative side of my background by venturing into my own artistic practice as the founder and Creative Director of Grey Remedy Ceramics. 
-    </p>
-
-    <div className="grPhotos">
-    <img className="grPhoto" src={vases}></img>
-    <img className="grPhoto" src={throwing}></img>
-    <img className="grPhoto" src={mug}></img>
+    <div className="iconBlock">
+      <img className= "icon react" src={React}/>
+      <p className="iconText">React</p>
     </div>
 
-    <p>In 2020, I began to experiment with code out of curiosity. I quickly noticed how coding allowed me to draw from so many skills that I had gained in other parts of my life. Writing in different languages as an International Relations major had helped me to understand the nuances of coding syntax. The creative problem-solving that I had engaged in as an entrepreneur shaped my approach to tackling coding challenges. Building things from scratch as an artist had given me the patience to focus on perfecting small pieces of code so that I could ultimately assemble them into something elaborate and dynamic.</p>
-    <p>
+    <div className="iconBlock">
+      <img className= "icon" src={Postgres}/>
+      <p className="iconText">PostgreSQL</p>
+    </div> 
+  
+    <div className="iconBlock">
+      <img className= "icon express" src={Express}/>
+      <p className="iconText">Express</p>
+    </div>
 
-    <img className="grBadge" src={gracehopper}></img><br/>
+    <div className="iconBlock">
+      <img className= "icon node" src={Node}/>
+      <p className="iconText">Node</p>
+    </div>
 
-    After years of experimenting, I finally found the courage to pursue software engineering as a career, completing the Grace Hopper Program in March 2024. I’m excited to be pursuing a career that connects so many of my passions and interests while allowing me to build tools that have the potential to improve people’s daily lives. 
+    <div className="iconBlock">
+      <img className= "icon css" src={CSS}/>
+      <p className="iconText">CSS</p>
+    </div>
+
+    <div className="iconBlock">
+      <img className= "icon redux" src={Redux}/>
+      <p className="iconText">Redux</p>
+    </div>
+
+    <div className="iconBlock">
+      <img className= "icon html" src={HTML}/>
+      <p className="iconText">HTML</p>
+    </div>
+
+    </div>
+
+    <h2 className="aboutSection"> Training </h2>
+
+    <div className="outroBlock">
+    <img className="ghBadge" src={gracehopper}></img><br/>
+    <p className="outroText">
+    As a student in the Grace Hopper Program at Fullstack Academy, I gained invaluable experience in both planning and developing full-stack applications. I’m excited to contribute my programming skills to a team that values curiosity, collaboration, and personal growth. Let’s work together! 
     </p>
-    
-    <p>To learn more about my background and experience, please see my Resume. 
-
-    </p>
+    </div>
 
 
    </div>
