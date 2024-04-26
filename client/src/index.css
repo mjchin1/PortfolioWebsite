@@ -106,7 +106,7 @@ margin-right: 10px;
   font-size: 30px;
 }
 a{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .appFooter {
@@ -216,4 +216,18 @@ font-size: 25px;
   margin-bottom: 4px;
 }
 
+.shortBreakline {
+  width: 200px;
+  border-bottom: solid;
+  margin: 0 auto;
+}
 
+.projectsLink {
+  font-size: 38px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navLink {
+  height: 25px;
+}

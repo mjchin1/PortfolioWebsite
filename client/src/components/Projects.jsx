@@ -16,6 +16,7 @@ export default function Projects() {
   return(
     <div className="projectsContainer">
     <h1>Projects</h1>
+    <div className="shortBreakline"></div>
 
     <h2>Moodboard</h2>
     <h3>A Full-Stack Website-Building App</h3>

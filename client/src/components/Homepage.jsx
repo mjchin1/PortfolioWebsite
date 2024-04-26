@@ -8,9 +8,14 @@ import Node from '../assets/Node.png'
 import CSS from '../assets/CSS.png'
 import Redux from '../assets/Redux.png'
 import HTML from '../assets/HTML.png'
+import { Link } from 'react-router-dom'
 
 
 export default function Homepage() {
+
+  function scrollToTop() {
+    window.scroll(0,0)
+  }
 
   return(
 
@@ -30,7 +35,9 @@ export default function Homepage() {
 
     <h1 className="aboutSection">About Me</h1>
 
-    <p className="homepageText">What I love about programming is that it allows me to draw from so many of the skills that I developed along my creative journey. Being a software engineer is very similar to being an artist: both require you to have the creative vision to build dynamic projects from scratch, the patience to spend time on small details, and the discipline to constantly learn new techniques so that you can grow and expand your abilities. My experience with planning and executing creative projects has shaped my holistic approach to building applications, and I love that being a software engineer allows me to use my creativity to build tools that improve people’s daily experiences. </p> <br/> <br/>
+    <p className="homepageText">What I love about programming is that it allows me to draw from so many of the skills that I developed along my creative journey. Being a software engineer is very similar to being an artist: both require you to have the creative vision to build dynamic projects from scratch, the patience to put a lot of focus into small details, and the discipline to constantly study new techniques so that you can grow in your craft and expand your abilities. My experience with planning and executing creative projects has shaped my holistic approach to building applications, and I love that being a software engineer allows me to use my creativity to make tools that can improve people’s daily experiences. </p> <br/> <br/>
+
+    <div className="shortBreakline"></div> <br/>
 
     <h1 className="aboutSection">Skills & Languages </h1>
 
@@ -79,16 +86,21 @@ export default function Homepage() {
       <p className="iconText">HTML</p>
     </div>
 
-    </div>
+    </div> <br/><br/>
+    
+    <div className="shortBreakline"></div> 
 
     <h2 className="aboutSection"> Training </h2>
 
     <div className="outroBlock">
     <img className="ghBadge" src={gracehopper}></img><br/>
     <p className="outroText">
-    As a student in the Grace Hopper Program at Fullstack Academy, I gained invaluable experience in both planning and developing full-stack applications. I’m excited to contribute my programming skills to a team that values curiosity, collaboration, and personal growth. Let’s work together! 
+    As a student in the Grace Hopper Program at Fullstack Academy, I gained invaluable experience in conceptualizing and coding full-stack applications. I’m excited to contribute my programming skills to a team that values curiosity, collaboration, and personal growth. Let’s work together! <br/> <br/>  
     </p>
-    </div>
+    </div> <br/> <br/>
+
+    <Link to="/projects" className="projectsLink" onClick={scrollToTop}> View My Projects </Link>
+   
 
 
    </div>
