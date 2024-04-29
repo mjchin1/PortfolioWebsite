@@ -104,6 +104,7 @@ margin-right: 10px;
 .appTitle {
   font-size: 50px;
   font-family: Palatino, URW Palladio L, serif;
+  font-weight: 500;
   margin-top: 0;
 }
 a{

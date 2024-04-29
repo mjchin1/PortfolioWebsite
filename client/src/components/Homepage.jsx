@@ -36,7 +36,7 @@ export default function Homepage() {
 
     <h1 className="aboutSection">About Me</h1>
 
-    <p className="homepageText">What I love about programming is that it allows me to draw from so many of the skills that I developed along my creative journey. Being a software engineer is very similar to being an artist: both require you to have the creative vision to build dynamic projects from scratch, the patience to put a lot of focus into small details, and the discipline to constantly study new techniques so that you can grow in your craft and expand your abilities. My experience with planning and executing creative projects has shaped my holistic approach to building applications, and I love that being a software engineer allows me to use my creativity to make tools that can improve people’s daily experiences. </p> <br/> <br/>
+    <p className="homepageText">What I love about programming is that it allows me to draw from so many of the skills that I developed along my creative journey. Being a software engineer is very similar to being an artist: both require you to have the creative vision to build dynamic projects from scratch, a passion for perfecting small details, and the curiosity to study new techniques so that you can grow in your craft and expand your skillset. My experience with planning and executing creative projects has shaped my holistic approach to building applications, and I love that being a software engineer allows me to use my creativity to make tools that can improve people’s daily experiences. </p> <br/> <br/>
 
     <div className="shortBreakline"></div> <br/>
 
@@ -96,7 +96,7 @@ export default function Homepage() {
     <div className="outroBlock">
     <img className="ghBadge" src={gracehopper}></img><br/>
     <p className="outroText">
-    As a student in the Grace Hopper Program at Fullstack Academy, I gained invaluable experience in conceptualizing and coding full-stack applications. I’m excited to contribute my programming skills to a team that values curiosity, collaboration, and personal growth. Let’s work together! <br/> <br/>  
+    As a student in the Grace Hopper Program at Fullstack Academy, I gained invaluable experience in conceptualizing and coding full-stack applications. I’m excited to contribute my programming skills to a team that values creativity, collaboration, and personal growth. Let’s work together! <br/> <br/>  
     </p>
     </div> <br/> <br/>
     <div className="shortBreakline"></div> <br/>
