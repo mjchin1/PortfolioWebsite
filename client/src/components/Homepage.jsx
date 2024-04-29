@@ -1,21 +1,21 @@
-import headshot from '../assets/headshot.png'
-import gracehopper from '../assets/gracehopper.png'
-import JS from '../assets/JS.png'
-import Postgres from '../assets/Postgres.png'
-import React from '../assets/React.png'
-import Express from '../assets/Express.png'
-import Node from '../assets/Node.png'
-import CSS from '../assets/CSS.png'
-import Redux from '../assets/Redux.png'
-import HTML from '../assets/HTML.png'
-import { Link } from 'react-router-dom'
+import headshot from '../assets/headshot.png';
+import gracehopper from '../assets/gracehopper.png';
+import JS from '../assets/JS.png';
+import Postgres from '../assets/Postgres.png';
+import React from '../assets/React.png';
+import Express from '../assets/Express.png';
+import Node from '../assets/Node.png';
+import CSS from '../assets/CSS.png';
+import Redux from '../assets/Redux.png';
+import HTML from '../assets/HTML.png';
+import { Link } from 'react-router-dom';
 
 
 export default function Homepage() {
 
   function scrollToTop() {
-    window.scroll(0,0)
-  }
+    window.scroll(0,0);
+  };
 
   return(
 
@@ -107,5 +107,5 @@ export default function Homepage() {
 
    </div>
 
-  )
+  );
 };

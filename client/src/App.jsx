@@ -1,9 +1,8 @@
-import { useState } from 'react'
 import { Routes, Route} from 'react-router-dom';
-import './App.css'
-import Homepage from './components/Homepage'
-import Navigations from './components/Navigations'
-import Projects from './components/Projects'
+import './App.css';
+import Homepage from './components/Homepage';
+import Navigations from './components/Navigations';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -30,7 +29,7 @@ function App() {
 
      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
