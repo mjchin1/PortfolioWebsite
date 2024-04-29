@@ -26,7 +26,7 @@ export default function Projects() {
     <p>
     React.js · Vite · Node.js · PostgreSQL · Express.js <br/> <br></br>
 
-    The idea for Moodboard came from my experience with using Squarespace during my time as a creative entrepreneur. Moodboard is a full-stack application that uses form data submitted by users to design a beautiful website. Users can create a website without logging in, but once they create an account, they gain the functionality to save and edit the websites they have created. <br/>
+    Moodboard is a full-stack application that uses form data submitted by users to instantly design a beautiful website. While I love experimenting with design, I understand that making design decisions can be a huge hassle for many people when creating a website. Moodboard takes these decisions off the user’s plate, organizing their information and images into a universally flattering format. While users can create a website without logging in, once they create an account, they gain the functionality to save and edit the websites they have created.  <br/>
     <br/>Deployed App · GitHub Repository
 
     <div className="breakline"></div>
@@ -40,7 +40,7 @@ export default function Projects() {
     <p>
     React.js · Vite · Node.js · PostgreSQL · Express.js · Redux · RTK Query <br/> <br/>
 
-    The Field Trip is a directory of hidden gems and unique spaces in Chicago. I created this full-stack application for people who are looking to break out of their routines and explore new parts of the city. The application allows users to view the entire directory without creating an account. Once they create an account, users gain the functionality to save individual locations to their list of favorite places, submit their own favorite places to be featured in the directory, and delete the places that they have submitted. <br/>
+    The Field Trip is a directory of hidden gems and unique spaces in Chicago. Sometimes we need little a push to shake up our routines and open ourselves up to new experiences. I created this application for Chicagoans who are looking to have new adventures by exploring beautiful, unfamiliar locations throughout the city. The application allows users to view the entire directory without creating an account, but once they do create an account, they gain the functionality to save individual locations to their list of favorite places, submit their own favorite places to be featured in the directory, and delete the places that they have submitted to the directory.  <br/>
 
    <br/> Deployed App · GitHub Repository
     </p>
