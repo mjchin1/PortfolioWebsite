@@ -241,8 +241,8 @@ font-size: 25px;
 .intro{
   background-color: #f5eee9;
   background-color: #f1f0f5;
-  background-color: #414673;
-  color: white;
+  /* background-color: #414673;
+  color: white; */
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
