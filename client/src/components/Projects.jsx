@@ -7,7 +7,7 @@ import FieldtripFavoritesPage from '../assets/FieldtripFavoritesPage.png'
 import ReviveHomepage from '../assets/ReviveHomepage.png'
 import ReviveCalendar from '../assets/ReviveCalendar.png'
 import ReviveSchedule from '../assets/ReviveSchedule.png'
-import ReviveAccountPage from '../assets/ReviveAccountPage.png'
+import ReviveCalendarForm from '../assets/ReviveCalendarForm.png'
 
 
 
@@ -52,13 +52,14 @@ export default function Projects() {
     <div className="revivePhotos">
     <img className="reviveProjectPhoto" src={ReviveHomepage}/>
     <img className="reviveProjectPhoto" src={ReviveCalendar}/>
+    <img className="reviveProjectPhoto" src={ReviveCalendarForm}/>
     <img className="reviveProjectPhoto" src={ReviveSchedule}/>
-    <img className="reviveProjectPhoto" src={ReviveAccountPage}/>
+   
     </div>
     <p>
     React.js · Vite · Node.js · PostgreSQL · Express.js · Redux · RTK Query · Bootstrap <br/> <br/>
 
-    My teammates and I created Revive as our capstone project for the Grace Hopper Program. Revive is a wellness app that helps users explore and save fitness routines, healthy recipes, and self-care ideas while allowing them to schedule and track their routines with a calendar. I created the calendar component of this app, which allows logged-in users to see a full monthly calendar view and add or delete events for individual calendar days. I also created the “Account” component of the app, which ties all of the app’s sections together by rendering the user’s saved fitness routines, recipes, self-care ideas, and daily schedule all in one place.  <br/>
+    My teammates and I created Revive as our capstone project for the Grace Hopper Program. Revive is a wellness app that helps users explore and save fitness routines, healthy recipes, and self-care ideas while allowing them to schedule and track their routines with a calendar. I created the calendar component of this app, which allows logged-in users to see a full monthly calendar view, add events for specific days using a scheduling form, see their daily schedule, and delete events.  <br/>
 
     <br/> <a className="appLink" href="https://revive-app.onrender.com" target="_blank">Deployed App</a> · <a className="appLink" href="https://github.com/revive-team1/revive-capstone" target="_blank">GitHub Repository </a>
     </p>
