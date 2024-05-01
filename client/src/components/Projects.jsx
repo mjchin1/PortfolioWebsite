@@ -61,14 +61,8 @@ export default function Projects() {
 
     My teammates and I created Revive as our capstone project for the Grace Hopper Program. Revive is a wellness app that helps users explore and save fitness routines, healthy recipes, and self-care ideas while allowing them to schedule and track their routines with a calendar. I created the calendar component of this app, which allows logged-in users to see a full monthly calendar view, add events for specific days using a scheduling form, see their daily schedule, and delete events.  <br/>
 
-    <br/> <a className="appLink" href="https://revive-app.onrender.com" target="_blank">Deployed App</a> · <a className="appLink" href="https://github.com/revive-team1/revive-capstone" target="_blank">GitHub Repository </a>
+    <br/> <a className="appLink" href="https://revive-app.onrender.com" target="_blank">Deployed App (please use Google Chrome for best user experience)</a> · <a className="appLink" href="https://github.com/revive-team1/revive-capstone" target="_blank">GitHub Repository </a>
     </p>
-
-    <div className="appLinks">
-
-
-
-    </div>
 
 
     </div>
