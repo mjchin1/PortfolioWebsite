@@ -1,4 +1,4 @@
-// import headshot from '../assets/headshot.png';
+import headshot from '../assets/headshot.png';
 import gracehopper from '../assets/gracehopper.png';
 import JS from '../assets/JS.png';
 import Postgres from '../assets/Postgres.png';
@@ -28,7 +28,7 @@ export default function Homepage() {
     </p>
     </div>
     <div className="introBlock">
-    {/* <img className="headshot" src={headshot}></img> */}
+    <img className="headshot" src={headshot}></img>
     </div>
 
     </div> <br/> <br/>
