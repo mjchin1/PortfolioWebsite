@@ -255,3 +255,139 @@ font-size: 25px;
   text-decoration: underline;
 
 }
+
+@media screen and (max-width: 500px) {
+
+  body {
+    width: 90vw;
+  }
+
+  .appHeader {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .appTitle {
+    width: 90vw;
+    font-size: 20px;
+    margin-left: -15px;
+    margin-bottom: -18px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    font-size: 20px;
+  }
+
+  .breakline {
+    width: 200px;
+  }
+
+  .appBody {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .appFooter {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  body {
+    width: 60vw;
+  }
+
+  .projectPhoto {
+    width: 60vw;
+    height: auto;
+  }
+
+  .reviveProjectPhoto {
+    width: 60vw;
+    height: auto;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  
+  .appLink {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .headshot {
+    width: 50vw;
+  }
+
+  .intro {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    width: 60vw;
+
+  }
+
+  .introText{
+    font-size: 16px;
+  }
+
+  .languageIcons {
+    width: 80vw;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+
+  .icon {
+    width: 80px;
+    height: auto;
+  }
+  .ghBadge {
+    width: 60vw;
+    height: auto;
+    margin-left: 25px;
+  }
+  .outroBlock {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .outroText {
+    font-size: 16px;
+    width: 80vw;
+    margin-left: -18px;
+    margin-bottom: -20px;
+  }
+
+  #root {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .homepageText {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .aboutSection {
+    margin-left: 8px;
+  }
+
+  .projectsLink {
+    font-size: 28px;
+  }
+
+  .aboutSection {
+    font-size: 28px;
+  }
+}
