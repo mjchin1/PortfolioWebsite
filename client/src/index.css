@@ -390,4 +390,8 @@ font-size: 25px;
   .aboutSection {
     font-size: 28px;
   }
+
+  .appFooter {
+    margin-top: 25px;
+  }
 }
