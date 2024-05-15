@@ -48,7 +48,7 @@ export default function Projects() {
 
 
     <h2>Revive</h2>
-    <h3>Group project | Full-Stack Wellness App</h3>
+    <h3>Group project | A Full-Stack Wellness App</h3>
     <div className="revivePhotos">
     <img className="reviveProjectPhoto" src={ReviveHomepage}/>
     <img className="reviveProjectPhoto" src={ReviveCalendar}/>
