@@ -43,7 +43,7 @@ export default function Homepage() {
     <h1 className="aboutSection">Skills & Languages </h1>
 
     <p className="homepageText"> Full-Stack Development · Front-End Web
-    Development · Back-End Web Development · REST API Development </p>
+    Development · Back-End Web Development · REST API Development · Asynchronous Programming</p>
 
     <div className="languageIcons">
 
