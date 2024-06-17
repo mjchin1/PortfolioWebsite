@@ -40,7 +40,7 @@ export default function Homepage() {
 
     <div className="shortBreakline"></div> <br/>
 
-    <h1 className="aboutSection">Skills & Languages </h1>
+    <h1 className="aboutSection">Skills, Languages & Technologies </h1>
 
     <p className="homepageText"> Full-Stack Development · Front-End Web
     Development · Back-End Web Development · REST API Development · Asynchronous Programming</p>
