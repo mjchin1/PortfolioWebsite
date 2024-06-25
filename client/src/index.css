@@ -325,6 +325,7 @@ h3{
   .projectPhoto {
     width: 60vw;
     height: auto;
+    border-width: thin;
   }
 
   .reviveProjectPhoto {
