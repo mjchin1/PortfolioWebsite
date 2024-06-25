@@ -331,6 +331,7 @@ h3{
   .reviveProjectPhoto {
     width: 60vw;
     height: auto;
+    border-width: thin;
   }
 
   p {
