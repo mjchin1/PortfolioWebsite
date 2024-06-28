@@ -36,7 +36,7 @@ export default function Homepage() {
 
     <h1 className="aboutSection">About Me</h1>
 
-    <p className="homepageText">What I love about programming is that it allows me to draw from so many of the skills that I developed along my creative journey. Being a software engineer is very similar to being an artist: both require you to have the creative vision to build dynamic projects from scratch, a passion for perfecting small details, and the drive to push yourself into unfamiliar territory so that you can grow in your craft. My experience with planning and executing creative projects has shaped my holistic approach to building applications, and I love that being a software engineer allows me to use my creativity to make tools that can improve people’s daily experiences. </p> <br/> <br/>
+    <p className="homepageText">What I love about programming is that it allows me to draw from so many of the skills that I developed along my creative journey. Being a software engineer is very similar to being an artist: both require you to have the creative vision to build dynamic projects from scratch, a passion for perfecting small details, and the drive to push yourself into unfamiliar territory so that you can grow in your craft. My experience with planning and executing creative projects has shaped my holistic approach to building applications, and I love that being a software engineer allows me to use my creativity to make tools that can make people's lives easier and more exciting. </p> <br/> <br/>
 
     <div className="shortBreakline"></div> <br/>
 
