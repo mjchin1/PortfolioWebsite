@@ -24,7 +24,7 @@ function App() {
       <div className="breakline"></div>
 
       <div className="appFooter">
-      This website was coded by Melissa Chin using VS Code, Vite and React. 2024.
+      © Melissa Chin, 2024. All rights reserved.
       </div>
 
      
