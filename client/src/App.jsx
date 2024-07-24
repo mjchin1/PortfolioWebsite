@@ -25,8 +25,6 @@ function App() {
 
       <div className="appFooter">
       © Melissa Chin, 2024. All rights reserved. <br/>
-      <a href="https://github.com/mjchin1/PortfolioWebsite">Github Repository</a>
-      
       </div>
 
      
