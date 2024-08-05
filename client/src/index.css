@@ -426,10 +426,10 @@ h3{
   }
 
   .GRprojectPhoto {
-    /* height: 280px; */
     width: 60vw;
     height: auto;
     border: solid;
+    border-width: thin;
     margin-left: 10px;
     margin-right: 10px;
     justify-content: center;
