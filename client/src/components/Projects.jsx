@@ -9,7 +9,7 @@ import ReviveCalendar from '../assets/ReviveCalendar.png'
 import ReviveSchedule from '../assets/ReviveSchedule.png'
 import ReviveCalendarForm from '../assets/ReviveCalendarForm.png'
 import GreyRemedyScreenshot1 from '../assets/GreyRemedyScreenshot1.png'
-import GreyRemedyScreenshot2 from '../assets/GreyRemedyScreenshot2.png'
+import GreyRemedyScreenshot5 from '../assets/GreyRemedyScreenshot5.png'
 import GreyRemedyScreenshot3 from '../assets/GreyRemedyScreenshot3.png'
 import GreyRemedyScreenshot4 from '../assets/GreyRemedyScreenshot4.png'
 
@@ -24,7 +24,7 @@ export default function Projects() {
     <h2>Grey Remedy Archive Website</h2>
     <h3>A Front-End Business Website</h3>
     <img className="GRprojectPhoto" src={GreyRemedyScreenshot1}/>
-    <img className="GRprojectPhoto" src={GreyRemedyScreenshot2}/>
+    <img className="GRprojectPhoto" src={GreyRemedyScreenshot5}/>
     <img className="GRprojectPhoto" src={GreyRemedyScreenshot3}/>
     <img className="GRprojectPhoto" src={GreyRemedyScreenshot4}/>
     <p>
