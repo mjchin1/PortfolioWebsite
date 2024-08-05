@@ -91,12 +91,13 @@ export default function Homepage() {
     
     <div className="shortBreakline"></div> 
 
-    <h2 className="aboutSection"> Training </h2>
+    <h2 className="aboutSection"> Education & Training </h2>
 
     <div className="outroBlock">
     <img className="ghBadge" src={gracehopper}></img><br/>
     <p className="outroText">
-    As a student in the Grace Hopper Program at Fullstack Academy, I gained invaluable experience in conceptualizing and coding full-stack applications. I’m excited to contribute my programming skills to a team that values creativity, collaboration, and personal growth. Let’s work together! <br/> <br/>  
+    I'm a graduate of Brown University, The University of Cambridge, and the Grace Hopper Program at Fullstack Academy. <br></br> <br/>
+    As a student in the Grace Hopper Program, I gained extensive experience in conceptualizing and coding full-stack applications. I’m excited to contribute my programming skills to a team that values creativity, collaboration, and personal growth. Let’s work together! <br/> <br/>  
     </p>
     </div> <br/> <br/>
     <div className="shortBreakline"></div> <br/>

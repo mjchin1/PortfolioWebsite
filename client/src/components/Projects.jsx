@@ -8,7 +8,10 @@ import ReviveHomepage from '../assets/ReviveHomepage.png'
 import ReviveCalendar from '../assets/ReviveCalendar.png'
 import ReviveSchedule from '../assets/ReviveSchedule.png'
 import ReviveCalendarForm from '../assets/ReviveCalendarForm.png'
-
+import GreyRemedyScreenshot1 from '../assets/GreyRemedyScreenshot1.png'
+import GreyRemedyScreenshot2 from '../assets/GreyRemedyScreenshot2.png'
+import GreyRemedyScreenshot3 from '../assets/GreyRemedyScreenshot3.png'
+import GreyRemedyScreenshot4 from '../assets/GreyRemedyScreenshot4.png'
 
 
 export default function Projects() {
@@ -17,6 +20,21 @@ export default function Projects() {
     <div className="projectsContainer">
     <h1>Projects</h1>
     <div className="shortBreakline"></div> <br/>
+
+    <h2>Grey Remedy Archive Website</h2>
+    <h3>A Front-End Business Website</h3>
+    <img className="GRprojectPhoto" src={GreyRemedyScreenshot1}/>
+    <img className="GRprojectPhoto" src={GreyRemedyScreenshot2}/>
+    <img className="GRprojectPhoto" src={GreyRemedyScreenshot3}/>
+    <img className="GRprojectPhoto" src={GreyRemedyScreenshot4}/>
+    <p>
+    React.js · React Router · Vite · HTML · CSS <br/> <br></br>
+
+    Although Grey Remedy's website was originally built using Squarespace, I took on the challenge of re-coding the website from scratch to serve as an archive of the work that I created while operating the company. As Grey Remedy's Creative Director, I developed the company's brand identity, directed product design and production, and created all written and visual content, including product photography. This website tells Grey Remedy's story while showcasing my photos of my favorite pieces. <br/>
+    <br/> <a className="appLink" href="https://greyremedy.com" target="_blank">Website</a> · <a className="appLink"  href="https://github.com/mjchin1/GreyRemedyArchiveWebsite" target="_blank">GitHub Repository </a>
+
+    <div className="breakline"></div>
+    </p>
 
     <h2>Moodboard</h2>
     <h3>A Full-Stack Website-Building App</h3>
@@ -30,8 +48,8 @@ export default function Projects() {
     <br/> <a className="appLink" href="https://youtu.be/Wcr2v1Hi3vI" target="_blank">Live App Demo</a> · <a className="appLink" href="https://moodboardwebsitebuilder.onrender.com" target="_blank">Deployed App</a> · <a className="appLink"  href="https://github.com/mjchin1/Moodboard-WebsiteBuilder" target="_blank">GitHub Repository </a>
 
     <div className="breakline"></div>
-
     </p>
+
     <h2>The Field Trip</h2>
     <h3>A Full-Stack Directory of Chicago's Hidden Gems</h3>
     <img className="projectPhoto" src={FieldtripHomepage}/>
