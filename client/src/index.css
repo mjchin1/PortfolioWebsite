@@ -424,4 +424,15 @@ h3{
   .appFooter {
     margin-top: 25px;
   }
+
+  .GRprojectPhoto {
+    /* height: 280px; */
+    width: 60vw;
+    height: auto;
+    border: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    }
+    
 }
