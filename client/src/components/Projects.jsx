@@ -30,7 +30,7 @@ export default function Projects() {
     <p>
     React.js · React Router · Vite · HTML · CSS · Git · GitHub <br/> <br></br>
 
-    Although Grey Remedy's website was originally built using Squarespace, I took on the challenge of re-coding the website from scratch to serve as an archive of the work that I created while operating the company. As Grey Remedy's Creative Director, I developed the company's brand identity, directed product design and production, and created all written and visual content, including product photography. This website tells Grey Remedy's story while showcasing my photos of my favorite pieces. <br/>
+    Although Grey Remedy's website was originally built using Squarespace, I took on the challenge of re-coding the website from scratch to serve as an archive of the work that I created while operating the company. As Grey Remedy's Creative Director, I developed the company's brand identity, managed product design, and created all written and visual content, including product photography. This website tells Grey Remedy's story while showcasing my photos of my favorite pieces. <br/>
     <br/> <a className="appLink" href="https://greyremedy.com" target="_blank">Website</a> · <a className="appLink"  href="https://github.com/mjchin1/GreyRemedyArchiveWebsite" target="_blank">GitHub Repository </a>
 
     <div className="breakline"></div>
